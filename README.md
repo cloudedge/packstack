@@ -29,8 +29,8 @@ packstack from.  The user can already exist, e.g. root, or a new one
 specified.  The default is *packstack*.  This can be overriden in the
 node-role for this instance.  The attribute is *packstack-user*.  The
 node-role also allows for the specification of the openstack release.
-The default is icehouse, but juno can be specified.  At the moment,
-that appears to be juno-1.  The attribute is *packstack-openstack_release*.
+The default is Kilo, but other releases can be specified.  At the moment,
+that appears to be kilo-1.  The attribute is *packstack-openstack_release*.
 
 The packstack-client will add the public key from all
 *packstack-installer* roles' users.  The node will also have the
